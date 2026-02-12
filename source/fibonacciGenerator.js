@@ -16,12 +16,12 @@ function* fibonacciGenerator(number) {
     }
 
     yield 0;
-    if (number == 1) {
+    if (number === 1) {
         return;
     }
 
     yield 1;
-    if (number == 2) {
+    if (number === 2) {
         return;
     }
 
